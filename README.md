@@ -14,6 +14,6 @@
 * After the decision is saved, the box disappears and enables scrolling of the page.
 * After refreshing the page, the plugin displays the information box again, prociding 24 hours have passed from the previous user's decision.
 
-Preview:
+## Preview:
 
  <img alt="Plugin preview" src="assets/img/prtscrn.png">
