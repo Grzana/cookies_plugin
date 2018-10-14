@@ -1,0 +1,92 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    background-color: #123965;
+    color: #FEFEFE;
+}
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+  }
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.center-txt {
+    text-align: center;
+}
+.space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Cookies box style*/
+
+.active {
+    display: block;
+}
+.hide {
+    display: none;
+}
+.popup-cookies {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -300px;
+}
+.popup_inner {
+    width: 600px;
+    height: 300px;
+    padding: 0.7rem; 
+    background-color: #EFF1F4;
+    color: #FE3336;
+    z-index: 10;
+}
+.popup_inner-text p {
+    margin: 1rem;
+}
+.popup_inner-btns {
+    margin: 1rem;
+}
+.popup_inner-btns button {
+    width: 60px;
+    height: 30px;
+    color: #EFF1F4;
+    border-radius: 10px;
+    border: none;
+}
+.popup_inner-btns button:hover {
+    box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+.popup_inner-btns .accept {
+    background-color: #339247;
+}
+.popup_inner-btns .cancel {
+    background-color: #FE3336;
+}
+
+/* Page content style*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.box-info {
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: #FE3336;
+}
+.box-info p {
+    font-style: italic;
+}
