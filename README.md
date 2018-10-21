@@ -2,6 +2,8 @@
 
 > plugin responsible for downloading information from the user in relation to GDPR
 
+Built on pure Vanilla JS + styling in CSS. No frameworks or libraries used.
+
 ## The plugin meets the following assumptions:
 
 * Can be embedded anywhere on the page (head or body).
